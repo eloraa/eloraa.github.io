@@ -1,1 +1,1 @@
-class App{constructor(){}}new App;
+class App{constructor(){window.addEventListener("load",(()=>{this.preloader=document.querySelector(".preloader"),this.preloader.style.opacity="0",setTimeout((()=>{this.preloader.remove()}),1e3)}))}}new App;
